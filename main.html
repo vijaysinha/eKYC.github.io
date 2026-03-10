@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>eKYC Status</title>
+</head>
+<body class="w-full h-screen bg-zinc-900 text-white">
+    <div class="container w-full h-screen flex flex-col items-center justify-center gap-5">
+        <h1 class="font-semibold text-2xl md:text-3xl sm:text-xl">दुकनवार शेष eKYC सूची</h1>
+        <input type="number" class="bg-zinc-800 text-white placeholder:text-zinc-500 border border-zinc-600 focus:outline-none focus:ring-2 focus:ring-blue-500 p-2 rounded-xl" placeholder="दुकान क्रमांक दर्ज करे..">
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded " onclick="urlmaker()">Submit</button>
 
+        <div class="links flex flex-start list-none gap-5">
+            <a href="blockwiseShopwise.html"><li>ब्लॉकवार दुकनवार</li></a>
+            <li>प्रगति रिपोर्ट</li>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
